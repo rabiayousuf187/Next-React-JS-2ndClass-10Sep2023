@@ -1,7 +1,7 @@
-export default function Button (){
+export default function Button ({text}){
     return (
         <>
-            <button>Click me</button>
+            <button>{text}</button>
         </>
 
     )
