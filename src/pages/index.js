@@ -40,6 +40,11 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
+        <h1>
+             Welcome to Next-React App
+            </h1>
+        </div>
+        <div className={styles.center}>
           <Image
             className={styles.logo}
             src="/next.svg"
