@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.center}>
+        <div>
         <h1>
              Welcome to Next-React App
             </h1>
