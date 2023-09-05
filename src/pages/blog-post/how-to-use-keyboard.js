@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+// access by type in url blog-post/how-to-use-keyboard
 const howUsedKeyBoard = () => {
   return (
     <div>
