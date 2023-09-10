@@ -4,7 +4,7 @@ export default function Button (props){
     console.log("Btn props ==== ",props)
     return (
         <>
-            <button className={props.btn}>{props.text}</button>
+            <button className={props.className}>{props.text}</button>
         </>
 
     )
