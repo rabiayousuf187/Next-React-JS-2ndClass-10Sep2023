@@ -1,9 +1,10 @@
-import styles from '@/styles/Card.module.css'; // Check that the alias points to the correct location
+// import styles from '@/styles/Card.module.css'; // Check that the alias points to the correct location
 
-export default function Button ({text}){
+export default function Button (props){
+    console.log("Btn props ==== ",props)
     return (
         <>
-            <button className={styles.btn}>{text}</button>
+            <button className={props.btn}>{props.text}</button>
         </>
 
     )

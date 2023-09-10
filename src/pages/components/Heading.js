@@ -1,12 +1,13 @@
 import React from 'react'
-import styles from '@/styles/Card.module.css'; // Check that the alias points to the correct location
+// import styles from '@/styles/Card.module.css'; // Check that the alias points to the correct location
 
-function Card({text}) {
+export default function Heading(props) {
+    console.log("Heading Props == ",props)
+    console.log("Heading Props == ",props.className)
   return (
     <>
-     <h1 className={styles.heading}>{text}</h1>
+     <h1 className={props.className}>{props.text}</h1>
     </>
   )
 }
 
-export default Card

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/Card.module.css'; // Check that the alias points to the correct location
+import styles from '@/styles/Home.module.css'; // Check that the alias points to the correct location
 
 function Card() {
   return (
